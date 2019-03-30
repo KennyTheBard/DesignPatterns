@@ -11,7 +11,7 @@ class Prototype {
 	}
 
 	void display() {
-		System.out.println(value);
+		System.out.println(id + " : " + value);
 	}
 
 	public Prototype clone() {
